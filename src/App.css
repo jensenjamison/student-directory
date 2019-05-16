@@ -1,33 +1,75 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Header {
+  background-color:#34a5daff;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  font-size: calc(5px + 2vmin);
+  color: black;
+  padding-left: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+body{
+  background-color: #222222ff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Middle{
+  background-color: #ebebeb;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10%;
+  margin-top: 80px;
 }
+
+.Nav{
+  background-color: #222222ff;
+  display: flex;
+  justify-content: space-around;
+  
+}
+  
+  .Previous{
+    border:none;
+    background-color: #222222ff;
+    color: white;
+    font-size: 20px;
+
+  }
+  
+  .Edit{
+    border-radius: 15px;
+    background-color: #34a5daff;
+    color: white;
+    border: none;
+    font-size: 20px;
+
+  }
+  
+  .Delete{
+    border-radius: 15px;
+    background-color: #34a5daff;
+    color: white;
+    border: none;
+    font-size: 20px;
+
+  }
+  
+  .New{
+    border-radius: 15px;
+    background-color: #34a5daff;
+    color: white;
+    border: none;
+    font-size: 20px;
+    
+  }
+  
+  .Next{
+    border:none;
+    background-color: #222222ff;
+    color: white;
+    font-size: 20px;
+
+  }
+  
+  
