@@ -15,17 +15,25 @@ body{
 
 .Middle{
   background-color: #ebebeb;
-  width: 80%;
+  width: 84%;
   display: flex;
   justify-content: flex-start;
-  margin-left: 10%;
+  margin-left: 8%;
   margin-top: 80px;
+  position: relative;
+}
+
+.Counter {
+  position: absolute;
+  right: 0; 
+  top: 0; 
 }
 
 .Nav{
   background-color: #222222ff;
   display: flex;
   justify-content: space-around;
+  margin-top: 15px;
   
 }
   
